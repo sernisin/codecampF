@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Lato;
+  src: url("../assets/Lato-Regular.ttf");
+}
+$text-color: rgb(32, 32, 32);
+* {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  background: url("../images/notebook.png") no-repeat;
+  background-size: contain;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .home {
+    color: rgb(35, 140, 167);
+  }
+}
+.header-second-part {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-second-part div {
+  width: 400px;
+  padding: 100px 0;
+  margin-right: 200px;
+  button {
+    padding: 10px 20px;
+    background-color: rgb(35, 140, 167);
+    color: white;
+    border: none;
+  }
+}
+.about {
+  display: flex;
+  justify-content: center;
+  div {
+    width: 500px;
+    padding: 40px;
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    img {
+      height: 100px;
+      width: 300px;
+      margin: 0 70px;
+    }
+  }
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0;
+  height: 1000px;
+}
+.one {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contain {
+    width: 600px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+}
+.bar {
+  width: 600px;
+  display: flex;
+
+  .green-one {
+    width: 400px;
+    border: 2px solid greenyellow;
+  }
+  .grey-one {
+    width: 200px;
+    border: 1px solid silver;
+    height: 2px;
+    align-self: center;
+  }
+  .green-two {
+    width: 450px;
+    border: 2px solid greenyellow;
+  }
+  .grey-two {
+    width: 150px;
+    border: 1px solid silver;
+    height: 2px;
+    align-self: center;
+  }
+  .green-three {
+    width: 250px;
+    border: 2px solid greenyellow;
+  }
+  .grey-three {
+    width: 350px;
+    border: 1px solid silver;
+    height: 2px;
+    align-self: center;
+  }
+}
+.two {
+  flex: 1;
+  background-color: rgb(236, 232, 232);
+}
+.lent {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(35, 140, 167);
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin-left: 30px;
+  h3,
+  p {
+    color: white;
+  }
+}
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+.part-one {
+  color: white;
+}
