@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js --node development --watch --open"
+    "start": "webpack-dev-server --config webpack.config.js --node development --watch --open",
+    "git:push": "git add . && git commit -m `update` && git push origin master"
   },
   "author": "",
   "license": "ISC",
